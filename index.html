@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Looking</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9527b6b265.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./assets/anime_logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Internships</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+               
+                <h1>The <span>Best Anime & Manga Looking</span><br>platform.</h1>
+                <p>For Manga and Anime loving people</p>
+            </div>
+        </div>
+    </div>
+   
+<!-------------------about-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assets/port.webp">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Anime & Manga</h1>
+                    <p>Manga (Japanese comics/graphic novels) and Anime (Japanese animation) are distinct yet interconnected entertainment forms.
+                         Manga are generally hand-drawn, printed stories, while anime are animated adaptations or original productions featuring vibrant visuals and voice acting.
+                         Both are major global cultural influencers offering diverse genres and detailed storytelling.</p>
+
+             <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Anime</p>
+                <p class="tab-links" onclick="opentab('experience')">Manga</p>
+                <p class="tab-links" onclick="opentab('education')">Comic</p>
+             </div>
+             <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span> Animated animation (moving images).</span><br>
+                   It involves high production value with voice acting, music, and sound effects, usually in color.</li>
+                    <li><span>Production and Distribution</span> <br> Produced by studios with large teams, often acting as an adaptation of a successful manga, light novel, or game.</li>
+                </ul>
+             </div>
+             <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Medium and Format</span><br>Printed, static still images.
+                         They are generally produced weekly or monthly in anthology magazines (on cheap paper) and later collected into volumes (tankōbon).</li>
+                    <li><span>Art Style and Reading Order</span><br> Generally in black and white (except for special editions). They use distinctive stylized drawings (large eyes, emotive faces) to convey emotion efficiently under tight deadlines. They are read from right to left.</li>
+                    <li><span>Production and Distribution</span><br>Typically serialised in large, cheap anthologies first, then compiled into volumes.</li>
+                </ul>
+             </div>
+             <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Medium and Format</span><br> Printed, static still images. Western comics are often sold as monthly, higher-quality magazines. 
+                         </li>
+                    <li><span>Art Style and Reading Order</span><br> Typically in full color. Art styles vary widely but tend to be more detailed or realistic than traditional manga. They are read from left to right.</li>
+                    <li><span> Production and Distribution</span><br>Often published as single monthly issues before being collected into graphic novels.</li>
+                </ul>
+             </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-------------------------------services--------------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Wonders of Genres</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Shonen </h2>
+                    <p> Action-packed, coming-of-age stories (e.g., Naruto, One Piece).</p>
+                    <a target="_blank" href="a">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Shojo</h2>
+                    <p> Focuses on relationships, romance, and emotion (e.g., Fruits Basket, *Cardcaptor Sakura) </p>
+                    <a target="_blank" href="a">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Kodomomuke</h2>
+                    <p>  Lighthearted, educational, or fun stories for young children</p>
+                    <a target="_blank" href="a">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Fantasy & Science Fiction</h2>
+                    <p>Fantasy and science fiction are major genres of speculative fiction that differ primarily in their use of natural laws versus the supernatural. </p>
+                    <a target="_blank" href="a">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Horror/Thriller</h2>
+                    <p>Horror thriller films combine terrifying supernatural or visceral scares with intense suspense, pacing, and psychological tension. </p>
+                    <a target="_blank" href="a">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------portfolio------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Anime & Manga Recommendations</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./assets/anime_11.jpg">
+                    <div class="layer">
+                        <h3>WebSprint Website</h3>
+                        <p>Completed an project focused on Full-Stack development for an WebSprint Online Courses and Enrollment</p>
+                        <a target="_blank" href="a"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/manga_11.jpg">
+                    <div class="layer">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>Created my own Portfolio Website For public view and Github port view</p>
+                        <a target="_blank" href="a"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/manga_21.jpg">
+                    <div class="layer">
+                        <h3>Carbon Zero 3.0, IIT Madras</h3>
+                        <p>Presented a project idea for the 'Pitch For the Planet Participant</p>
+                        <a target="_blank" href="a"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="page2.html" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-------------------------contact------------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>qyqupq04sun@outlook.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9876543210</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/?lang=en-in"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="www.linkedin.com/in/navina-nanthini-68a13a279"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <!-- <a href="Navina N Resume.pdf" download class="btn btn2">Download Resume/CV</a> -->
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright issued for anime manga & comics. Made with anime manga lovers  <i class="fas fa-heart"></i></p>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwmozHYXGjiF5frae8uIJw9a1jsgyeRpxkeF9ICbfJ6GBuwVacCWt9l8iLIRudvQG09Jg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+
+</body>
+
+</html>
+
